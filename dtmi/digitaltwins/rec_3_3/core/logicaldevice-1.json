@@ -25,17 +25,6 @@
     },
     {
       "@type": "Relationship",
-      "description": {
-        "en": "Points to sub-entities that share the same base type (i.e., Spaces only have Spaces as parts, Assets only have Assets as parts, etc.). Inverse of: isPartOf"
-      },
-      "displayName": {
-        "en": "has part"
-      },
-      "name": "hasPart",
-      "target": "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1"
-    },
-    {
-      "@type": "Relationship",
       "displayName": {
         "en": "has capability"
       },
@@ -53,25 +42,6 @@
       "maxMultiplicity": 1,
       "name": "hostedBy",
       "target": "dtmi:digitaltwins:rec_3_3:core:Asset;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "External IDs"
-      },
-      "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
-          "name": "externalIdName",
-          "schema": "string"
-        },
-        "dtmi:dtdl:property:mapValue;2": {
-          "name": "externalIdValue",
-          "schema": "string"
-        }
-      },
-      "writable": true
     },
     {
       "@type": "Property",

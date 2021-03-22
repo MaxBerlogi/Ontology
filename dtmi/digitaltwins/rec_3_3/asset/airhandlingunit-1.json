@@ -5,36 +5,6 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "ventilation strategy"
-      },
-      "name": "ventilationStrategy",
-      "dtmi:dtdl:property:schema;2": {
-        "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
-          {
-            "enumValue": "Demand",
-            "name": "Demand"
-          },
-          {
-            "enumValue": "DemandEconomizing",
-            "name": "DemandEconomizing"
-          },
-          {
-            "enumValue": "Economizing",
-            "name": "Economizing"
-          },
-          {
-            "enumValue": "None",
-            "name": "None"
-          }
-        ],
-        "valueSchema": "string"
-      },
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
         "en": "ventilation configuration"
       },
       "name": "ventilationConfiguration",
@@ -42,16 +12,16 @@
         "@type": "Enum",
         "dtmi:dtdl:property:enumValues;2": [
           {
-            "enumValue": "OA",
-            "name": "OA"
+            "enumValue": "MixedAir",
+            "name": "MixedAir"
           },
           {
             "enumValue": "None",
             "name": "None"
           },
           {
-            "enumValue": "MixedAir",
-            "name": "MixedAir"
+            "enumValue": "OA",
+            "name": "OA"
           }
         ],
         "valueSchema": "string"
@@ -273,6 +243,36 @@
       },
       "name": "exhaustFan",
       "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "ventilation strategy"
+      },
+      "name": "ventilationStrategy",
+      "dtmi:dtdl:property:schema;2": {
+        "@type": "Enum",
+        "dtmi:dtdl:property:enumValues;2": [
+          {
+            "enumValue": "Demand",
+            "name": "Demand"
+          },
+          {
+            "enumValue": "DemandEconomizing",
+            "name": "DemandEconomizing"
+          },
+          {
+            "enumValue": "Economizing",
+            "name": "Economizing"
+          },
+          {
+            "enumValue": "None",
+            "name": "None"
+          }
+        ],
+        "valueSchema": "string"
+      },
+      "writable": true
     },
     {
       "@type": "Property",

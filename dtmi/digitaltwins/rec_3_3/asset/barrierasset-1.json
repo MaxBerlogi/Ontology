@@ -14,18 +14,9 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "thickness"
+        "en": "type"
       },
-      "name": "thickness",
-      "schema": "double",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "service"
-      },
-      "name": "service",
+      "name": "type",
       "dtmi:dtdl:property:schema;2": {
         "@type": "Enum",
         "dtmi:dtdl:property:enumValues;2": [
@@ -40,6 +31,15 @@
         ],
         "valueSchema": "string"
       },
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "thickness"
+      },
+      "name": "thickness",
+      "schema": "double",
       "writable": true
     },
     {

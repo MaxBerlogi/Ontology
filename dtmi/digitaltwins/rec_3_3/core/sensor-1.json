@@ -5,7 +5,7 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates the (optional) entity-of-interest of some sensor, i.e., what it is configured to observe or look for. This allows systems to perform graph propagation of sensor values, e.g., letting a temperature sensor that observes a given room set the temperature for that room. Inverse of: observedBy"
+        "en": "Indicates the (optional) entity-of-interest of some sensor, i.e., what it is configured to observe or look for. This allows systems to perform graph propagation of sensor values, e.g., letting a temperature sensor that observes a given room set the temperature for that room."
       },
       "displayName": {
         "en": "observes"
